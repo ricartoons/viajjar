@@ -1,0 +1,111 @@
+.login-content{
+  width: 100%;
+  padding: 15%;
+  margin: auto;
+  background: #614ea6;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container-vertical{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-vertical .ico-logo{
+  width: 120px;
+}
+.container-vertical .txt-logo{
+  font-size: 48px
+}
+.btn-login{
+  background: #fff;
+  color: #614ea6;
+  outline: none;
+  margin-top: 35px;
+}
+
+.btn-login:hover{
+  background: #f21667;
+  color: #fff;
+}
+
+.opcoes-login a{
+  text-decoration: none;
+  color: #fff;
+  transition: .2s ease-in;
+}
+.opcoes-login a:hover{
+  color: #f21667;
+}
+.text-white{
+  color: #fff;
+}
+
+.msg-login{
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.form-control {
+  color: #495057;
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+.form-signin .form-control {
+  color: #eee;
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+}
+.form-signin .form-control:focus {
+  color: #eee;
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+.form-control::placeholder {
+  color: #ccc
+}
+/* RESPONSIVIDADE */
+@media(max-width: 480px){
+  .ico-star{
+    display: none;
+  }
+  .btn-login{
+    margin-top: 35px;
+  }
+  .opcoes-login{
+    display: flex;
+    flex-direction: column-reverse;
+    line-height: 45px;
+    justify-content: center;
+    align-items: center;;
+  }
+  .opcoes-login a:last-child{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  }
+}

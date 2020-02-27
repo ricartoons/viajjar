@@ -1,0 +1,52 @@
+.bg-purple {
+  background: #614ea6;
+}
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ico-logo {
+  width: 50px;
+}
+.txt-logo {
+  font-family: "Bangers", cursive;
+  font-size: 28px;
+  padding: 0 10px;
+  color: #9a8ccf;
+}
+.nav-link {
+  color: #fff !important;
+  transition: 0.2s ease-in;
+}
+.nav-link:hover {
+  color: #f21667 !important;
+}
+.navbar-light .navbar-toggler-icon {
+  color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: initial;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../../assets/menu.svg");
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    align-items: center;
+  }
+}

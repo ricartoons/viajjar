@@ -1,0 +1,22 @@
+.form-login{
+  max-width: 650px;
+}
+
+.btn-cadastro{
+  background: #614ea6;
+  color: #fff;
+}
+
+.btn-cadastro:hover{
+  background: #f21667;
+  color: #fff;
+}
+.btn-voltar{
+  background: #fff;
+  color: #614ea6;
+  border: 2px solid #614ea6;
+}
+.btn-voltar:hover{
+  background: #614ea6;
+  color: #fff;
+}
